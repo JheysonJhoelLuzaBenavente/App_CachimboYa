@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#020073"
+    tools:context=".simulacrounap_preguntas">
+
+    <TextView
+        android:id="@+id/timerTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="02:00:00"
+        android:textSize="18sp"
+        android:textColor="@color/white"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:id="@+id/questionTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/white"
+        android:text="Pregunta"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/questionImageView"
+        android:layout_width="match_parent"
+        android:layout_height="463dp"
+        android:layout_marginTop="16dp"
+        android:adjustViewBounds="true"
+        android:scaleType="fitCenter" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp">
+
+        <RadioGroup
+            android:id="@+id/optionsRadioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/optionA"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:textColor="@color/white"
+                android:text="A." />
+
+            <RadioButton
+                android:id="@+id/optionB"
+                android:layout_width="72dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:textColor="@color/white"
+                android:text="B." />
+
+            <RadioButton
+                android:id="@+id/optionC"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:textColor="@color/white"
+                android:text="C." />
+
+            <RadioButton
+                android:id="@+id/optionD"
+                android:layout_width="67dp"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="8dp"
+                android:textColor="@color/white"
+                android:text="D." />
+
+            <RadioButton
+                android:id="@+id/optionE"
+                android:layout_width="71dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:text="E." />
+        </RadioGroup>
+    </HorizontalScrollView>
+
+    <Button
+        android:id="@+id/nextButton"
+        android:layout_width="128dp"
+        android:layout_height="58dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:text="Siguiente" />
+</LinearLayout>
