@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#020073">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.07"
+        android:orientation="horizontal"
+        android:layout_marginTop="20dp">
+
+        <LinearLayout
+            android:layout_width="80dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/ButtonFL1"
+                android:layout_width="30dp"
+                android:layout_height="15dp"
+                android:src="@drawable/flechita" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="100"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Simulacros de admisión"
+                android:textColor="#FF8A65"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:background="#020073"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="343dp"
+            android:layout_height="200dp"
+            android:layout_marginTop="100dp"
+            android:layout_marginBottom="100dp"
+            android:src="@drawable/portada2" />
+
+        <ImageButton
+            android:id="@+id/buttonsimulacrounap"
+            android:layout_width="341dp"
+            android:layout_height="193dp"
+            android:layout_marginTop="-80dp"
+            android:layout_marginBottom="-20dp"
+            android:background="@drawable/sau1" />
+
+        <ImageButton
+            android:id="@+id/buttonsimulacrounaj"
+            android:layout_width="341dp"
+            android:layout_height="185dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginBottom="150dp"
+            android:background="@drawable/sau2" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

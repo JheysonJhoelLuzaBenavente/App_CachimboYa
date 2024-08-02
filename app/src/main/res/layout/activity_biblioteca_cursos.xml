@@ -1,0 +1,218 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#020073">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="72dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="NestedWeights">
+
+            <ImageButton
+                android:id="@+id/ButtonFL2"
+                android:layout_width="28dp"
+                android:layout_height="15dp"
+                android:src="@drawable/flechita" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="100"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Biblioteca Virtual"
+                android:textColor="#FF8A65"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:layout_marginTop="10dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:ignore="NestedWeights">
+
+            <Button
+                android:id="@+id/buttonLogin"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Cursos"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonEX"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:text="Exámenes"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonLI"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Libros"
+                android:textColor="@color/black"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="#020073"
+            android:gravity="center">
+
+            <ImageButton
+                android:id="@+id/ButtonRM"
+                android:layout_width="342dp"
+                android:layout_height="107dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c1" />
+
+            <ImageButton
+                android:id="@+id/ButtonRV"
+                android:layout_width="343dp"
+                android:layout_height="103dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c2" />
+
+            <ImageButton
+                android:id="@+id/ButtonFISICA"
+                android:layout_width="347dp"
+                android:layout_height="102dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c3" />
+
+            <ImageButton
+                android:id="@+id/ButtonQUIMICA"
+                android:layout_width="345dp"
+                android:layout_height="96dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c4" />
+
+            <ImageButton
+                android:id="@+id/ButtonALGEBRA"
+                android:layout_width="349dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c5" />
+
+            <ImageButton
+                android:id="@+id/ButtonARITMETICA"
+                android:layout_width="349dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c6" />
+
+            <ImageButton
+                android:id="@+id/ButtonGEOMETRIA"
+                android:layout_width="349dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c7" />
+            <ImageButton
+                android:layout_width="349dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c8" />
+            <ImageButton
+                android:layout_width="349dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c9" />
+            <ImageButton
+                android:layout_width="349dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c10" />
+            <ImageButton
+                android:layout_width="349dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c11" />
+            <ImageButton
+                android:layout_width="349dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c12" />
+            <ImageButton
+                android:layout_width="349dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c13" />
+            <ImageButton
+                android:layout_width="349dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c14" />
+            <ImageButton
+                android:layout_width="349dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c15" />
+            <ImageButton
+                android:layout_width="349dp"
+                android:layout_height="99dp"
+                android:layout_marginBottom="20dp"
+                android:background="@drawable/c16" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

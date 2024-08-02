@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#020073">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:layout_marginTop="10dp">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:ignore="NestedWeights">
+
+            <ImageButton
+                android:id="@+id/ButtonFL4"
+                android:layout_width="28dp"
+                android:layout_height="15dp"
+                android:src="@drawable/flechita" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.8"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Biblioteca Virtual"
+                android:textColor="#FF8A65"
+                android:textSize="20sp"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:layout_marginTop="10dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center"
+            tools:ignore="NestedWeights">
+
+            <Button
+                android:id="@+id/buttonCU1"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Cursos"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonEX1"
+                android:layout_width="130dp"
+                android:layout_height="40dp"
+                android:text="Exámenes"
+                android:textColor="@color/black"
+                android:textSize="15sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:gravity="center">
+
+            <Button
+                android:id="@+id/buttonLogin2"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:text="Libros"
+                android:textColor="@color/white"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.8"
+        android:orientation="vertical"
+        android:background="#020073"
+        android:gravity="center">
+
+        <ImageButton
+            android:id="@+id/ButtonLUMBRERAS"
+            android:layout_width="333dp"
+            android:layout_height="154dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/l1" />
+
+        <ImageButton
+            android:id="@+id/ButtonSANMARCOS"
+            android:layout_width="335dp"
+            android:layout_height="152dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/l2" />
+
+        <ImageButton
+            android:id="@+id/ButtonCUZCANO"
+            android:layout_width="332dp"
+            android:layout_height="163dp"
+            android:layout_marginBottom="30dp"
+            android:background="@drawable/l3" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
